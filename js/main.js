@@ -72,7 +72,7 @@ video.addEventListener("playing", () => {
       document.getElementById("gender").innerText = `Gender - ${gender}`;
       document.getElementById("emotion").innerText = `Emotion - ${emotion[0]}`;
     }
-  }, 1000);
+  }, 1);
 });
 
 function resizeDetection(detection, displaySize) {
